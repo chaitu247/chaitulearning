@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_chaitulearning_1697045878444-push-trigger-input-set
+  identifier: Build_chaitulearning_1697045878444pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_chaitulearning_1697045878444
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
