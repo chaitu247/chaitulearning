@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_chaitulearning_1697045878444-pr-trigger-input-set
+  identifier: Build_chaitulearning_1697045878444prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_chaitulearning_1697045878444
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
